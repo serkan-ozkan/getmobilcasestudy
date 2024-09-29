@@ -34,6 +34,8 @@ The system uses **Apache Kafka** to communicate between the Order Management and
 - mvn clean install (If you got an error make sure in File -> Project Structure -> Project Settings -> Project, the SDK is coretto-17 and Language Level is 11)
 - docker-compose up (in order module)
 
-- You can use the postman collection to test the controllers.
+- You can run the modules at same time and use the postman collection to test the controllers.
+
+- P.S: In order to create an order you need to create an inventory for that item as well. You can do it manually or by giving a initialStock to the product while creating it.(It sohuld be fixed in future releases :) )
 
 
