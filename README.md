@@ -34,4 +34,6 @@ The system uses **Apache Kafka** to communicate between the Order Management and
 - mvn clean install
 - docker-compose up (in order module)
 
+- You can use the postman collection to test the controllers.
+
 
