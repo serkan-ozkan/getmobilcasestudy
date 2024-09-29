@@ -30,8 +30,8 @@ The system uses **Apache Kafka** to communicate between the Order Management and
 - Consumer: Generates invoices based on order events.
 
 ## Running The Application
-- git clone https://github.com/your-username/getmobilcasestudy.git
-- mvn clean install
+- git clone the repository.
+- mvn clean install (If you got an error make sure in File -> Project Structure -> Project Settings -> Project, the SDK is coretto-17 and Language Level is 11)
 - docker-compose up (in order module)
 
 - You can use the postman collection to test the controllers.
